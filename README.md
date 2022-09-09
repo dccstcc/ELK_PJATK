@@ -83,8 +83,8 @@ In this project I use template from BIU_PJATK subject for frontend of applicatio
 ### Built With
 
 This project use technology below.
-* [![dotnet][dotnet-shield]][dotnet-url]
-* [![Angular][angular-shield]][angular-url]
+* [![cpp][cpp-shield]][cpp-url]
+* [![arduino][arduino-shield]][arduino-url]
 
 
 <!-- GETTING STARTED -->
@@ -94,78 +94,40 @@ This is instructions on setting up this project locally.
 
 ### Prerequisites
 
-Microsoft Visual Studio IDE is need. <br/>
-.NET framework is required. <br/>
-Angular CLI package intall with Node Package Manager is need. <br/>
-Angular devkit package intall with Node Package Manager is need. <br/>
+Arduino IDE is required. <br/>
+Arduino board is required. <br/>
+Hardware prototype for Arduino project is need. <br/>
 
 ### Installation
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/dccstcc/DOT_PJATK
+   git clone https://github.com/dccstcc/ELK_PJATK
    ```
-2. Go to folder with actual version of project frontend
+2. Go to folder with project for Arduino IDE 
    ```sh
-   cd dotNET_ASP_REST_EF/Angular_SPA/ClientApp
+   cd ./LEDcube
    ```
-3. Build and run sources with Angular CLI
-   ```sh
-   ng serve
-   ```
-   <br/>
-4. Run project in web browser
-   Default adress set in framewrok is:
-   [https://localhost:4200/](https://localhost:4200/)
-   <br/>
-5. Run Visual Studio and import project from source
-   ```sh
-   cd DOT_PJATK/dotNET_ASP_REST_EF/
+3. Import project file into Arduino IDE 
 
-   ```
-   open 
-   ```
-   NET_CORE_ASP_REST_EF.sln
-   ```
-   in Visual Studio
-   <br/>
-6. From context menu of ASP_REST project hit 
-  ```
-  run project
-  ```
-<br />
-<img src="images/run_backend.png" width="300"/>
-
+                                            
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-After run project from Visual Studio web browser start automatically with backend data view.
+After import project into Arduino IDE it is need to connect Arduino board by USB with computer and deploy project of software on arduino board.
 
-<img src="images/backend_init.png" width="300"/>
+<img src="images/2.png" width="300"/>
 
-Go to web browser and enter in adress
-```
-http://localhost:4200
-```
+After write software on arduino board it is possible to disconnect board from USB and connect Arduino board with dedicated hardware prototype.
 
-<img src="images/web_for_init.png" width="300"/>
+<img src="images/1.png" width="300"/>
 
+<img src="images/3.png" width="300"/>
 
-As first we need to register user in system use fields with personal user data. Unappropriate entries are detected and user will see typing error. After user registration process we can sign into service with given user name and password.
+After complete connect a hardware prototytpe with Arduino for start work it is necessary to press the yellow button on prototype board. <br />
+Now we can observe simulation of throw game cube mapped on LED diodes and sum of result on connected display.
 
-<img src="images/web_form_fill.png" width="300"/>
-
-It is possible not to fill all inputs because button 
-```
-rejestracja_rest_api
-```
-is active all the time. After click this button we will send data for backend rest api and will register new user in Angular storage.
-
-<img src="images/frontend_summary.png" width="300"/>
-
-Now it is need to refresh web page.
-
-<img src="images/json_output.png" width="300"/>
+<img src="images/4.png" width="300"/>
 
 
 <!-- _For more examples, please refer to the [Documentation](https://example.com)_ -->
@@ -234,21 +196,22 @@ Project URL:
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/dccstcc/DOT_PJATK.svg?style=for-the-badge
-[contributors-url]: https://github.com/dccstcc/DOT_PJATK/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/dccstcc/DOT_PJATK.svg?style=for-the-badge
-[forks-url]: https://github.com/dccstcc/DOT_PJATK/network/members
-[stars-shield]: https://img.shields.io/github/stars/dccstcc/DOT_PJATK.svg?style=for-the-badge
-[stars-url]: https://github.com/dccstcc/DOT_PJATK/stargazers
-[issues-shield]: https://img.shields.io/github/issues/dccstcc/DOT_PJATK.svg?style=for-the-badge
-[issues-url]: https://github.com/dccstcc/DOT_PJATK/issues
+[contributors-shield]: https://img.shields.io/github/contributors/dccstcc/ELK_PJATK.svg?style=for-the-badge
+[contributors-url]: https://github.com/dccstcc/ELK_PJATK/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/dccstcc/ELK_PJATK.svg?style=for-the-badge
+[forks-url]: https://github.com/dccstcc/ELK_PJATK/network/members
+[stars-shield]: https://img.shields.io/github/stars/dccstcc/ELK_PJATK.svg?style=for-the-badge
+[stars-url]: https://github.com/dccstcc/ELK_PJATK/stargazers
+[issues-shield]: https://img.shields.io/github/issues/dccstcc/ELK_PJATK.svg?style=for-the-badge
+[issues-url]: https://github.com/dccstcc/ELK_PJATK/issues
 [license-shield]: https://img.shields.io/badge/License-NONE-orange
-[license-url]: https://github.com/dccstcc/DOT_PJATK/blob/master/LICENSE.txt
+[license-url]: https://github.com/dccstcc/ELK_PJATK/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/dominik-stec
 [product-screenshot]: images/screenshot.png
 
-[angular-shield]: https://img.shields.io/badge/-Angular-red
-[angular-url]: https://angular.io/
-[dotnet-shield]: https://img.shields.io/badge/-.NET-blue
-[dotnet-url]: https://docs.microsoft.com/pl-pl/dotnet/
+[arduino-shield]: https://img.shields.io/badge/-Arduino-green
+[arduino-url]: https://www.arduino.cc/
+[cpp-shield]: https://img.shields.io/badge/-C++-blue
+[cpp-url]: https://isocpp.org/
+
