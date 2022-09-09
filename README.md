@@ -116,18 +116,18 @@ Hardware prototype for Arduino project is need. <br/>
 
 After import project into Arduino IDE it is need to connect Arduino board by USB with computer and deploy project of software on arduino board.
 
-<img src="images/2.png" width="300"/>
+<img src="images/2.jpg" width="300"/>
 
 After write software on arduino board it is possible to disconnect board from USB and connect Arduino board with dedicated hardware prototype.
 
-<img src="images/1.png" width="300"/>
+<img src="images/1.jpg" width="300"/>
 
-<img src="images/3.png" width="300"/>
+<img src="images/3.jpg" width="300"/>
 
 After complete connect a hardware prototytpe with Arduino for start work it is necessary to press the yellow button on prototype board. <br />
 Now we can observe simulation of throw game cube mapped on LED diodes and sum of result on connected display.
 
-<img src="images/4.png" width="300"/>
+<img src="images/4.jpg" width="300"/>
 
 
 <!-- _For more examples, please refer to the [Documentation](https://example.com)_ -->
