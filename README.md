@@ -78,7 +78,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-In this project I use template from BIU_PJATK subject for frontend of application and use .NET framework for backend implementation. I Use C# language for make REST API and communicate it with web form for register new users in application. 
+In this project I wrote software for Arduino IDE in C++ language fork and deploy this software in Arduino board memory. After that I connected Arduino board with hardware prototype contains LED diodes, resistors, display and button. This built scheme is simulation of game cube which player can throw by press button. Random result of throw is possible to observe on the LED diodes and sum of results appear on the display. 
 
 ### Built With
 
