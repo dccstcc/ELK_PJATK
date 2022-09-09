@@ -29,12 +29,12 @@
     <img src="images/logo.jpg" alt="Logo" width="540" height="80">
   </a>
 
-  <h2 align="center">DOT_PJATK</h2>
+  <h2 align="center">ELK_PJATK</h2>
 
   <p align="center">
-    .NET framework project in PJATK subject
+    <h3> Electronics subject with Arduino project </h3>
     <br />
-    <a href="https://github.com/dccstcc/BIU_PJATK"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/dccstcc/ELK_PJATK"><strong>» go to CODE »</strong></a>
     <br />
     <br />
     <!-- <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
