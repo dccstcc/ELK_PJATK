@@ -99,7 +99,7 @@ Hardware prototype for Arduino project is need. <br/>
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/dccstcc/ELK_PJATK
+   git clone https://github.com/dominik-stec/Electronics_PJA.git
    ```
 2. Go to folder with project for Arduino IDE
    ```sh
