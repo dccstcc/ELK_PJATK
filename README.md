@@ -5,8 +5,6 @@
 *** Thanks again! Now go create something AMAZING! :D
 -->
 
-
-
 <!-- PROJECT SHIELDS -->
 <!--
 *** I'm using markdown "reference style" links for readability.
@@ -15,6 +13,7 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
+
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
@@ -29,14 +28,14 @@
     <img src="images/logo.jpg" alt="Logo" width="540" height="80">
   </a>
 
-  <h2 align="center">ELK_PJATK</h2>
+  <h2 align="center">Electronics</h2>
 
   <p align="center">
-    <h3> Electronics subject with Arduino project </h3>
-    <br />
+    <h3> Electronic embedded system with Arduino </h3>
+    <!-- <br />
     <a href="https://github.com/dccstcc/ELK_PJATK"><strong>» go to CODE »</strong></a>
     <br />
-    <br />
+    <br /> -->
     <!-- <a href="https://github.com/othneildrew/Best-README-Template">View Demo</a>
     ·
     <a href="https://github.com/othneildrew/Best-README-Template/issues">Report Bug</a>
@@ -45,50 +44,48 @@
   </p>
 </p>
 
-
-
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summary>Table of Contents</summary>
   <ol>
     <li>
-      <a href="#about-the-project">About The Project</a>
+      <a href="#project-description">Project description</a>
       <ul>
-        <li><a href="#built-with">Built With</a></li>
+        <li><a href="#libraries-and-frameworks">Libraries / Frameworks</a></li>
       </ul>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="native-deploy">Native deploy</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
+    <li><a href="#how-to-use">How to use ?</a></li>
     <!-- <li><a href="#roadmap">Roadmap</a></li>
     <li><a href="#contributing">Contributing</a></li> -->
     <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
+    <li><a href="#contact">Contact with me</a></li>
     <!-- <li><a href="#acknowledgements">Acknowledgements</a></li> -->
   </ol>
 </details>
 
-
-
 <!-- ABOUT THE PROJECT -->
-## About The Project
 
-In this project I wrote software for Arduino IDE in C++ language fork and deploy this software in Arduino board memory. After that I connected Arduino board with hardware prototype contains LED diodes, resistors, display and button. This built scheme is simulation of game cube which player can throw by press button. Random result of throw is possible to observe on the LED diodes and sum of results appear on the display. 
+## Project description
 
-### Built With
+In this project I wrote software for Arduino IDE in C++ language fork and deploy this software in Arduino board memory. After that I connected Arduino board with hardware prototype contains LED diodes, resistors, display and button. This built scheme is simulation of game cube which player can throw by press button. Random result of throw is possible to observe on the LED diodes and sum of results appear on the display.
+
+### Libraries and frameworks
 
 This project use technology below.
-* [![cpp][cpp-shield]][cpp-url]
-* [![arduino][arduino-shield]][arduino-url]
 
+- [![cpp][cpp-shield]][cpp-url]
+- [![arduino][arduino-shield]][arduino-url]
 
 <!-- GETTING STARTED -->
-## Getting Started
+
+## Native deploy
 
 This is instructions on setting up this project locally.
 
@@ -104,15 +101,15 @@ Hardware prototype for Arduino project is need. <br/>
    ```sh
    git clone https://github.com/dccstcc/ELK_PJATK
    ```
-2. Go to folder with project for Arduino IDE 
+2. Go to folder with project for Arduino IDE
    ```sh
    cd ./LEDcube
    ```
-3. Import project file into Arduino IDE 
+3. Import project file into Arduino IDE
 
-                                            
 <!-- USAGE EXAMPLES -->
-## Usage
+
+## How to use
 
 After import project into Arduino IDE it is need to connect Arduino board by USB with computer and deploy project of software on arduino board.
 
@@ -129,19 +126,16 @@ Now we can observe simulation of throw game cube mapped on LED diodes and sum of
 
 <img src="images/4.jpg" width="300"/>
 
-
 <!-- _For more examples, please refer to the [Documentation](https://example.com)_ -->
 
-
-
-<!-- ROADMAP 
+<!-- ROADMAP
 ## Roadmap
 
 See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a list of proposed features (and known issues).
 
 -->
 
-<!-- CONTRIBUTING 
+<!-- CONTRIBUTING
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -155,28 +149,26 @@ Contributions are what make the open source community such an amazing place to l
 -->
 
 <!-- LICENSE -->
+
 ## License
 
 This project has not a license.
-All rights are reserved and it is not Open Source or Free. You cannot modify or redistribute this code without explicit permission from the copyright holder.
+All rights are reserved and it is not Open Source or free. You cannot modify or redistribute this code without explicit permission from the copyright holder, because projects which I realised are private conception from PJATK studies.
 See `LICENSE` for more information.
 
-
-
 <!-- CONTACT -->
+
 ## Contact
 
-Dominik Stec - dccstcc@gmail.com
+Dominik Stec - dominikstec@devapp.tools
 
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-Project URL: 
+Project URL:
 <br />
-`https://github.com/dccstcc/DOT_PJATK.git`
+`https://github.com/dominik-stec/Electronics_PJA.git`
 
-
-
-<!-- ACKNOWLEDGEMENTS 
+<!-- ACKNOWLEDGEMENTS
 ## Acknowledgements
 * [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
 * [Img Shields](https://shields.io)
@@ -192,10 +184,9 @@ Project URL:
 
 -->
 
-
-
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+
 [contributors-shield]: https://img.shields.io/github/contributors/dccstcc/ELK_PJATK.svg?style=for-the-badge
 [contributors-url]: https://github.com/dccstcc/ELK_PJATK/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/dccstcc/ELK_PJATK.svg?style=for-the-badge
@@ -209,9 +200,7 @@ Project URL:
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/dominik-stec
 [product-screenshot]: images/screenshot.png
-
 [arduino-shield]: https://img.shields.io/badge/-Arduino-green
 [arduino-url]: https://www.arduino.cc/
 [cpp-shield]: https://img.shields.io/badge/-C++-blue
 [cpp-url]: https://isocpp.org/
-
