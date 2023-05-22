@@ -187,16 +187,16 @@ Project URL:
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/dccstcc/ELK_PJATK.svg?style=for-the-badge
-[contributors-url]: https://github.com/dccstcc/ELK_PJATK/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/dccstcc/ELK_PJATK.svg?style=for-the-badge
-[forks-url]: https://github.com/dccstcc/ELK_PJATK/network/members
-[stars-shield]: https://img.shields.io/github/stars/dccstcc/ELK_PJATK.svg?style=for-the-badge
-[stars-url]: https://github.com/dccstcc/ELK_PJATK/stargazers
-[issues-shield]: https://img.shields.io/github/issues/dccstcc/ELK_PJATK.svg?style=for-the-badge
-[issues-url]: https://github.com/dccstcc/ELK_PJATK/issues
+[contributors-shield]: https://img.shields.io/github/contributors/dominik-stec/Electronics_PJA.svg?style=for-the-badge
+[contributors-url]: https://github.com/dominik-stec/Electronics_PJA/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/dominik-stec/Electronics_PJA.svg?style=for-the-badge
+[forks-url]: https://github.com/dominik-stec/Electronics_PJA/network/members
+[stars-shield]: https://img.shields.io/github/stars/dominik-stec/Electronics_PJA.svg?style=for-the-badge
+[stars-url]: https://github.com/dominik-stec/Electronics_PJA/stargazers
+[issues-shield]: https://img.shields.io/github/issues/dominik-stec/Electronics_PJA.svg?style=for-the-badge
+[issues-url]: https://github.com/dominik-stec/Electronics_PJA/issues
 [license-shield]: https://img.shields.io/badge/License-NONE-orange
-[license-url]: https://github.com/dccstcc/ELK_PJATK/blob/master/LICENSE.txt
+[license-url]: https://github.com/dominik-stec/ELK_PJATK/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/dominik-stec
 [product-screenshot]: images/screenshot.png
